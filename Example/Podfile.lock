@@ -9,6 +9,9 @@ PODS:
     - GMmacros
     - GMThirdLibrary/GMUMSDK
     - Masonry
+    - MJExtension
+    - pop
+    - YYCategories
   - GMThirdLibrary/GMBaseSDK (0.2.0):
     - GMThirdLibrary/GMBaseSDK/GMTencentOpenApiSDK (= 0.2.0)
     - GMThirdLibrary/GMBaseSDK/GMWechatSDK (= 0.2.0)
@@ -52,7 +55,12 @@ PODS:
     - GMThirdLibrary/GMUMSDK/UMShare
     - UMCCommon
   - Masonry (1.1.0)
+  - MJExtension (3.2.1)
+  - pop (1.0.12)
   - UMCCommon (2.1.1)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -61,7 +69,10 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Masonry
+    - MJExtension
+    - pop
     - UMCCommon
+    - YYCategories
   https://github.com/ioszhanghui/GMPublicRepo.git:
     - GMmacros
     - GMThirdLibrary
@@ -75,10 +86,13 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   GMmacros: 2f5feff28e116006525dc58ccb393b77e4921e6d
-  GMShareSDK: 36491473616c403a1bb74bdab7e5667c641ff755
+  GMShareSDK: d8bcc8fea1ecf56429a27321f406d25fd6907f85
   GMThirdLibrary: 4c0fee72fe59b7b18d64ca837348f6e2d9d89261
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   UMCCommon: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
 PODFILE CHECKSUM: 1cc12aac6bbf89cf1433a8f92e2eb5888c3870f2
 

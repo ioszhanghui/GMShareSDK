@@ -37,7 +37,9 @@ Pod::Spec.new do |s|
   s.dependency 'GMThirdLibrary/GMUMSDK'
   s.dependency 'GMmacros'
   s.dependency 'Masonry'
-
+  s.dependency 'YYCategories'
+  s.dependency 'MJExtension'
+  s.dependency 'pop'
   
   s.resources = ['GMShareSDK/Assets/all/*.png']
   
