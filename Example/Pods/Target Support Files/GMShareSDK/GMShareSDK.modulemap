@@ -1,0 +1,6 @@
+framework module GMShareSDK {
+  umbrella header "GMShareSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

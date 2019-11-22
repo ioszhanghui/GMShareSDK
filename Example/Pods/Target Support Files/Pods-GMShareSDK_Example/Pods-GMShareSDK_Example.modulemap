@@ -1,0 +1,6 @@
+framework module Pods_GMShareSDK_Example {
+  umbrella header "Pods-GMShareSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

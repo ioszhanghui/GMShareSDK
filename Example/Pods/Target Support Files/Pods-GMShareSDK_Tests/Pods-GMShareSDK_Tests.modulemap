@@ -1,0 +1,6 @@
+module Pods_GMShareSDK_Tests {
+  umbrella header "Pods-GMShareSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

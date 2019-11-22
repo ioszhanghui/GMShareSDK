@@ -1,0 +1,1 @@
+../../../GMThirdLibrary/GMThirdLibrary/Classes/GMBaseSDK/GMWeibo_SDK/WBHttpRequest.h

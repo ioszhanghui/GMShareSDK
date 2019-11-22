@@ -1,0 +1,18 @@
+#use_frameworks!
+
+source 'https://github.com/ioszhanghui/GMPublicRepo.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.0'
+
+
+
+target 'GMShareSDK_Example' do
+  pod 'GMShareSDK', :path => '../'
+
+  target 'GMShareSDK_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

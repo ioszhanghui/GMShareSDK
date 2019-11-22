@@ -1,0 +1,1 @@
+../../../../../GMShareSDK/Classes/GMSSDKRegister.h

@@ -1,0 +1,53 @@
+{
+  "name": "GMShareSDK",
+  "version": "0.1.0",
+  "summary": "国美分享",
+  "description": "只包含微信分享的 分享工具",
+  "homepage": "https://github.com/ioszhanghui/GMShareSDK.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ioszhanghui@163.com": "yomingyo@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ioszhanghui/GMShareSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "source_files": "GMShareSDK/Classes/**/*",
+  "dependencies": {
+    "GMThirdLibrary/GMUMSDK": [
+
+    ],
+    "GMmacros": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "YYCategories": [
+
+    ],
+    "MJExtension": [
+
+    ],
+    "pop": [
+
+    ]
+  },
+  "resources": [
+    "GMShareSDK/Assets/all/*.png"
+  ],
+  "prefix_header_contents": [
+    "#import<GMmacros/macros.h>",
+    "#import <Masonry/Masonry.h>",
+    " #import <YYCategories/YYCategories.h>",
+    "#import <MJExtension/MJExtension.h>",
+    "#import <MJExtension/MJExtension.h>"
+  ]
+}

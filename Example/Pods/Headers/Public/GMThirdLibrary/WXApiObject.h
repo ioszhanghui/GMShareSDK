@@ -1,0 +1,1 @@
+../../../GMThirdLibrary/GMThirdLibrary/Classes/GMBaseSDK/GMWechatSDK/WXApiObject.h
